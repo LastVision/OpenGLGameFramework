@@ -7,6 +7,7 @@ class GameApp : public Framework::Application
 public:
     GameApp()
     {
+        //here we can push additional layers, like overlays, menus, etc.
         PushLayer(new GameLayer());
     }
     ~GameApp() = default;

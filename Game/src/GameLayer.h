@@ -14,5 +14,5 @@ public:
     virtual void OnImGuiRender() override;
     virtual void OnEvent(Framework::Event & aEvent) override;
 private:
-
+    Framework::OrthographicCameraController myCameraController;
 };
